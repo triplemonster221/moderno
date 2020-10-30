@@ -1,0 +1,62 @@
+@import '_vars';
+@import '_global';
+@import '_fonts';
+
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.header__text{
+  margin-left: auto; 
+  margin-right: 50px; 
+  span{
+    color:$red;
+  }
+  
+}
+.header__text a{
+
+}
+.header__btn{
+    width: 72px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    color:#fff;
+    font-size: 12px;
+}
+.header__btn-login{
+    background-color: $green;
+}
+.header__btn-registr{
+    background-color: $red;
+    margin-left: 7px;
+}
+.header__menu{
+    background-color: $bg;
+    padding: 22px 0;
+}
+.menu{
+    
+    
+}
+.menu__list{
+    display: flex;
+    align-self: center;
+}
+.menu__list{
+    li{
+        display: inline-block;
+        & + li{
+            margin-left: 30px;
+        }
+    }
+}
+.menu__list a{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
