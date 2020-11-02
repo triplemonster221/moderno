@@ -264,7 +264,53 @@
     }
 }
 
-  
+// advantage
+.advantage{
+    padding: 120px 0 115px;
+    background-color:$bg ;
+    &__title{
+        color:#fff;
+    }
+    &__inner{
+        display: flex;
+        
+    }
+}
+.advantage__item{
+    text-align: center;
+    cursor:pointer;
+    
+    &:hover{
+        .advantage__item-img{
+            background-color:$green ;
+        } 
+        .advantage__item-title{
+            color:$green;
+        }
+    }
+    &-img{
+        width: 112px;
+        height: 112px;
+        border-radius:50%;
+        background-color: #fff;
+        padding-top: 17px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        transition:all 0.4s;
+        
+    }
+    &-title{
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 25px;
+        color:#fff;
+        transition:all 0.4s;
+    }
+    &-text{
+        color:#b0bec5;
+
+    }
+}
 
   
 
