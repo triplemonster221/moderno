@@ -312,6 +312,52 @@
     }
 }
 
+// avtor
+.avtor{
+    
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__box{
+        min-width: 653px;
+        min-height: 220px;
+        background-color: $green;
+        display: flex;
+        align-items: center;
+        padding: 68px 57px 80px 57px;
+        
+        
+    }
+    &__title{
+        font-size: 30px;
+        color:#fff;
+        width: 265px;
+        margin-right: 40px;
+        line-height: 1.4em;
+        span{
+            font-weight: 700;
+        }
+    }
+    &__link{
+        width: 225px;
+        background-color: #fff;
+        text-align: center;
+        color:$bg;
+        padding: 25px 0 22px;
+        font-size: 18px;
+        &:hover{
+            color:#fff;
+            background-color: $bg;
+        }
+    }
+
+}
+
+
   
 
   
