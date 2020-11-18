@@ -1,0 +1,150 @@
+@media screen and (max-width:1150px){
+    .footer__inner{
+        flex-wrap:wrap;
+        
+    }
+    .footer__col-list a{
+        padding-left:0;
+    }
+    .footer__col{
+        width:40%;
+        margin-bottom:60px;
+    }
+   
+    .footer__col-menu{
+        max-width:40%;
+    }
+}
+@media screen and (max-width:1015px){
+    .header__text{
+        display:none;
+    }
+
+}
+
+
+@media screen and (max-width:790px){
+    .footer{
+        padding:60px;
+    }
+    .footer__col{
+        width:100%;
+        text-align: center;
+    } 
+    .footer__col-menu{
+        max-width:100%;
+    }
+    .footer__col-title::after{
+        width:100%;
+    }
+    .footer__col-text{
+        margin:0 auto;
+    }
+    .footer__info{
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .footer__copy-text{
+        text-align:center;
+    }
+    .menu__list{
+        display:none;
+    }
+    .header__menu{
+        position:relative;
+        padding-right:15px;
+    }
+    .header__menu-gamburger{
+        display:block;
+    }
+    .menu{
+        position: absolute;
+        top: 17px;
+        left: 54px;
+        right:5px;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:665px){
+    .basket__box{
+        .notification{
+            display: none; 
+        }
+        .message{
+            display: none;
+        }
+    }
+    
+}
+
+@media screen and (max-width:560px){
+    .user__info{
+        display:none;
+    }
+}
+@media screen and (max-width:500px){
+    .footer__inner {
+        padding-bottom:20px;
+    }
+    .header__menu{
+        min-height:100px;
+    }
+    .header__menu-gamburger{
+        margin-top:10px;
+    }
+
+}
+@media screen and (max-width:435px){
+    .user__box{
+        display:none;
+    }
+    .menu__list{
+        & li+li{
+            margin-right: 22px;
+           margin-left:0; 
+        }
+    }
+    .header__btn-login{
+        margin-left:15px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .footer__col{
+        margin-bottom:50px;
+    } 
+    .footer__inner{
+        border:none;
+    }
+    .footer {
+        padding:25px 10px;
+    }
+    .container{
+        padding:0 10px;
+    }
+    .basket__box{
+        & .basket{
+            display:none;
+        }
+    }
+    
+}
+@media screen and (max-width:330px){
+    .header__menu{
+        min-height:110px;
+    }
+    .header__top-inner{
+        flex-wrap:wrap;
+        padding-top: 16px;
+        height: auto;
+        & .header__logo{
+            margin:0 auto;
+        }
+    }
+    .header__box{
+        height:50px;
+         margin-left: 56px;
+         margin:0 auto;
+    }
+}

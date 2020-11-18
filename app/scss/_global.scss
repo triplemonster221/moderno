@@ -50,3 +50,16 @@ body{
     margin-bottom: 50px;
 
 }
+.angle-right{
+    position:relative;
+    padding-left:15px;
+    &::before{
+        content:'\f105';
+        position:absolute;
+        font-family:'icomoon';
+        font-size:14px;
+        color:$green;
+        left:0;
+
+    }
+}
